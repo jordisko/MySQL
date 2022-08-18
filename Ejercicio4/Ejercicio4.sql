@@ -48,7 +48,6 @@ INSERT INTO mydb.genre(genre_Name) VALUES ("JORDI");
 INSERT INTO mydb.genre(genre_Name) VALUES ("JORDI");
 INSERT INTO mydb.genre(genre_Name) VALUES ("JORDI");
 INSERT INTO mydb.genre(genre_Name) VALUES ("JORDI");
-
 INSERT INTO mydb.album (album_Name) VALUES
 ("DAVID"),
 ("DAVID"),
@@ -62,8 +61,8 @@ INSERT INTO mydb.album (album_Name) VALUES
 ("DAVID"),
 ("DAVID"),
 ("DAVID");
-
-
-
 SELECT * FROM mydb.album;
 SELECT * FROM mydb.artist;
+SELECT * FROM mydb.genre;
+USE mydb;
+DELETE FROM album WHERE id_Album = 2
